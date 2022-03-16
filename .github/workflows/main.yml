@@ -2,3 +2,10 @@
   # You may pin to the exact commit or the version.
   # uses: LucaFeger/action-maven-cli@765e218a50f02a12a7596dc9e7321fc385888a27
   uses: LucaFeger/action-maven-cli@1.1.0
+  - name: JFrog CLI for GitHub Actions
+  # You may pin to the exact commit or the version.
+  # uses: katcosgrove/jfrogcli-action@7cacbb9204d7bf9be55e49eeb4abcdf578b00add
+  uses: katcosgrove/jfrogcli-action@v1.0.0-beta
+  with:
+    # The command you want to run, without `jfrog rt`
+    cmd: 
